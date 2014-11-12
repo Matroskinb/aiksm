@@ -1,0 +1,423 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic400,300,700&subset=latin,cyrillic-ext,cyrillic,latin-ext);
+/*rules for all (normalise)*/
+
+body{
+	font:18px 'Open Sans';
+	color:#3f51b5;
+}
+
+h1{
+	font-size:32px;
+	font-weight: 400;
+}
+
+h2{
+	font-size:24px;
+}
+
+h6,h5{
+	font-weight: bold;
+}
+
+
+ul li{
+		list-style:none;
+}
+
+/*header css*/
+.header{
+	background: #3f51b5;
+	border-bottom: 5px solid #303f9f;
+	color:#fff;
+	text-align: center;
+}
+
+/*info block*/
+
+.info{
+	background: ;
+	margin-bottom: 33px;
+	
+	color:#3748aa;
+}
+
+.info h2{
+	background: url(../img/icon_info.png) 10px center no-repeat, #e2e4f4;
+	padding:25px 0 25px 61px;
+}
+
+/*footer*/
+
+.footer{
+	background: #e2e4f4;
+	font-style: italic;
+	padding:11px;
+	margin-top: 40px;
+	bottom:0;
+	position: fixed;
+	width: 100%;
+
+}
+
+.footer .logo-studio{
+	vertical-align: middle;
+	background: url(../img/logo_studio.png) right center no-repeat;
+	display: block;
+	cursor: pointer;
+	padding:33px 0 32px;
+}
+
+/*site position for all pages*/
+
+.site-position{
+	margin-top: 22px;
+}
+
+.site-position > .path-name{
+	border-bottom: 1px solid #3f51b5;
+	padding-left: 1px;
+}
+
+.site-position > .path{
+	padding-left: 2px;
+	padding-top: 12px;
+}
+
+.site-position .path-name span{
+	font-weight: 300;
+	font-size: 38px;
+	padding-bottom: 6px;
+}
+
+/*login-form index.html*/
+
+.wrap .content-login h1{
+	text-align: center;
+	font-style:  italic;
+}
+
+.login-form{
+	width: 632px;
+	border:1px solid #303f9f;
+	border-radius: 3px;
+	padding:35px 30px 15px;
+	margin: 0 auto 106px;
+	color:#333333;
+}
+
+.login-form .forgot-password{
+	line-height: 18px;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.login-form .checkbox{
+	font-size: 14px;
+	padding-top: 0px;
+	line-height: 18px;
+	font-weight: 400;
+}
+
+/*backgrounds for cards*/
+
+.card-accounts{
+	background: url(../img/eye.png);
+}
+
+.card-administration{
+	background: url(../img/man.png);
+}
+
+.card-objects{
+	background: url(../img/home.png);
+}
+
+.card-peoples{
+	background: url(../img/list.png);
+}
+
+.card-notification{
+	background: url(../img/notification.png);
+}
+
+.card-edit{
+	background: url(../img/edit.png);
+}
+
+.card-info{
+	background: url(../img/info.png);
+}
+
+.card-calendar{
+	background: url(../img/calendar.png);
+}
+
+.card-ruport{
+	background: url(../img/ruport.png);
+}
+
+/*objects in accounts and task css*/
+.notifications{
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	width: 170px;
+}
+
+.notifications .notification-count{
+	bottom:1px;
+	height:22px;
+	width:100%;
+	color:#fff;
+	text-align: center;
+	position: absolute;
+	background: #d75452;
+	display: block;
+	cursor: pointer;
+}
+
+.select-users-group{
+	padding:71px 0 250px;
+	width:350px;
+	margin:0 auto 0;
+	
+}
+
+.objects-cards-wrap{
+	width:1070px;
+	margin:0 auto 180px;
+}
+
+.card-object{
+	width: 170px;
+	text-align: center;
+	height: 170px;
+	padding-top:5px;
+	font-size: 24px;
+	display: inline-block;
+	vertical-align: top;
+	box-shadow: 0px 1px 0px 0.00px rgba(1, 1, 1, 0.05);
+	border:1px solid #303f9f;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 32px;
+	border-radius: 5px;
+}
+
+.card-object:hover{
+	text-decoration: none;
+}
+
+.card-object span{
+	font-size: 80px;
+	line-height: 98px;
+}
+
+/*journal css*/
+
+.journal-ops .date{
+	background:#e2e4f4;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.journal-ops .time{
+	width: 67px;
+}
+
+.journal-ops td{
+	width: 230px;
+}
+
+/*path css*/
+
+.path{
+	font-size: 14px;
+}
+
+.path a{
+	color:#303f9f;
+}
+
+.path span{
+	color:#d8d8d8;
+}
+/* css for tables */
+
+.table-bordered tr:first-child{
+	border-bottom:2px solid #303f9f;
+	font-weight: 700;
+}
+
+.table-bordered.accounts tr:nth-child(2n+3){
+	background: #e2e4f4;
+}
+
+.table-bordered.administration td{
+	width: 300px;
+}
+
+.table-bordered.accounts td{
+	width: 235px;
+}
+
+.table-bordered td{
+	color:#333;
+	font-size: 14px;
+	padding: 10px 12px;
+}
+
+.table-action{
+	margin-top:20px;
+}
+
+.table-statistic span{
+	padding-right: 15px;
+}
+.journal-tabs{
+	padding: 0;
+	border-bottom: 1px solid #3f51b5;
+	margin-bottom: 30px;
+}
+
+.journal-tabs li{
+	display: inline-block;
+	font-size: 14px;
+	color:#303f9f;
+	padding: 16px 20px;
+	cursor: pointer;
+}
+
+
+.journal-tabs li.active{
+	background: #3f51b5;
+	color:#fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.show-options{
+	margin-left:32px;
+}
+
+.show-options label{
+	font-weight: 300;
+	color:#333;
+	padding-left: 5px;
+}
+
+.show-options .pick-all{
+	font-size: 14px;
+	text-decoration: underline;
+	padding-left:20px;
+	cursor: pointer
+}
+
+.show-options ul{
+	padding:0;
+}
+
+.show-options h6{
+	color:#333;
+}
+
+.show-options h5{
+	text-transform: uppercase;
+}
+
+/*account options css*/
+
+.account-options{
+	border:1px solid #303f9f;
+	border-radius: 5px;
+	font-weight: 700;
+	padding: 10px 20px;
+	width: 604px;
+	float:left;
+}
+
+.account-options span{
+	font-weight: 300;
+	text-decoration: underline;
+	padding:0 5px;
+}
+
+.btn.sms{
+	padding:4px 7px;
+	display: inline;
+	margin-left: 10px;
+}
+
+.account-time-enabled{
+	color:#fff;
+	font-weight: 700;
+	background: #49b149;
+	margin-left:20px;
+	padding:19px 20px;
+	border-radius:5px;
+	float: right;
+}
+
+.account-time-enabled span{
+	font-weight: 300;
+	font-size: 30px;
+	padding-left: 10px;
+	vertical-align: sub;
+}
+
+.account-control-panel{
+	width: 970px;
+	margin:60px auto 40px;
+}
+
+/*added in bootstrap class enter-button в документации это описано*/
+.enter-button{
+	border:1px solid #3f51b5;
+	border-radius: 5px;
+	color:  #333333;
+	font-size: 14px;
+	font-weight: 400;
+	padding:0 69px;
+	height: 35px;
+	margin:0 auto;
+	display: block;
+}
+
+.card-button{
+	border:1px solid #303f9f;
+	border-radius: 3px;
+	width: 170px;
+	height: 169px;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+	background-position: center 60px;
+	background-repeat: no-repeat;
+	margin-right: 25px;
+	vertical-align: top;
+	padding-top: 5px;
+	line-height: 22px;
+}
+
+.card-button:last-child{
+	margin-right: 0;
+}
+
+.btn.table-edit{
+	width: 170px;
+	border:1px solid #3f51b5;
+	border-radius: 5px;
+	margin-right: 32px;
+	margin-bottom: 15px;
+}
+
+a.info-account-show{
+	background: url(../img/icon_account_info.png) no-repeat;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	cursor: pointer;
+	margin: 0 0 -5px 5px;
+}
